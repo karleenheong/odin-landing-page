@@ -24,6 +24,13 @@ p {
   margin: 0;
 }
 
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+}
 
 /* Header */
 .header {
@@ -43,7 +50,7 @@ p {
 .hero {
   background-color: #1f2937;
   display: flex;
-  padding: 50px 240px;
+  padding: 80px 240px;
 }
 
 h1 {
@@ -63,7 +70,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 8px;
+  gap: 10px;
 }
 
 .hero-image {
@@ -71,11 +78,7 @@ h1 {
   height: 250px;
 }
 
-button {
-  background-color: #3882F6;
-  color: #F9FAF8;
-  padding: 8px 28px;
-  border-radius: 8px;
+.hero button {
   border: none;
 }
 
@@ -137,8 +140,32 @@ h2 {
   font-weight: bold;
 }
 
-
 /* CTA */
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 90px 240px;
+  padding: 60px 100px;
+  color: #F9FAF8;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cta button {
+  border: 2px solid #F9FAF8;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 /* Footer */
 
