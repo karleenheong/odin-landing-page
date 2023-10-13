@@ -19,6 +19,11 @@ a {
   color: #E5E7EB;
 }
 
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
 
 /* Header */
 .header {
@@ -49,9 +54,7 @@ h1 {
 }
 
 .hero p {
-  font-size: 18px;
   color: #E5E7EB;
-  margin: 0;
 }
 
 .hero-content {
@@ -92,19 +95,48 @@ button {
 .panel {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 170px;
   text-align: center;
   margin: 0 20px;
 }
 
 .panel-image {
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   border-radius: 8px;
   border: 5px solid #3882F6;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
 }
 
 /* Quote */
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 320px;
+  background-color: #E5E7EB;
+  gap: 20px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 26px;
+  color: #1f2937;
+  font-weight: bold;
+}
+
 
 /* CTA */
 
